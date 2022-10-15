@@ -12,7 +12,7 @@ import io.cucumber.junit.CucumberOptions;
 		monochrome = true,
 		
 		//plugin is used to generate html report
-		plugin = {"pretty","html:target/html-cucumber","json:target/cucumber.json"},
+		plugin = {"pretty","html:target/html-cucumber-PhaseII","json:target/cucumber-PhaseII.json"},
 		
 		//path for the feature files
 		features = "src/test/java/Features",
