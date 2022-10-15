@@ -21,7 +21,7 @@ import io.cucumber.junit.CucumberOptions;
 		glue = "StepDefs",
 		
 		// Tags to be specified in feature file
-		tags = {"@Tag1"}
+		tags = {"@Sanity or @Regression"}
 		
 		)
 public class Runner_PhaseII {
